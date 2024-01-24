@@ -1,0 +1,16 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: "Montserrat Variable", sans-serif;
+  overflow-y: hidden;
+  background-color: #0d0d0d;
+  scroll-behavior: smooth; /* Makes normal scrolling smooth */
+}
+
+/*# sourceMappingURL=base.css.map */
