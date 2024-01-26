@@ -1,10 +1,22 @@
 ---
 import Layout from '../layouts/Layout.astro'
-import Grid from '../components/Grid.tsx'
+import MaskIntro from '../components/MaskIntro.tsx'
 ---
 
-<Layout title='Welcome to Astro.'>
-	<Grid client:only />
+<Layout title='Welcome to Astro.' description='Página web de Nyhz'>
+	<main>
+		<div class='grid-container'>
+		  <div class='grid-item-1' id='grid-item-1'>
+			<MaskIntro client:only />
+		  </div>
+		  <div class='grid-item-2'></div>
+		  <div class='grid-item-3'></div>
+		  <div class='grid-item-4'></div>
+		  <div class='grid-item-5'></div>
+		  <div class='grid-item-6'></div>
+		  <div class='grid-item-7'></div>
+		</div>
+	</main>
 </Layout>
 
-<style></style>
+<style></style>../components/MaskIntro.tsx
